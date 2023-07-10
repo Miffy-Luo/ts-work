@@ -1,5 +1,7 @@
-import { run } from "./t2-container";
+import { runContainer } from "./t2-container";
+import { runDecorator } from "./t4-decorator";
 
 console.log("hello");
 
-run()
+runContainer(); // T2
+runDecorator(); // T4

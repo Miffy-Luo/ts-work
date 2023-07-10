@@ -1,7 +1,7 @@
 import { KArray } from "./KArray";
 import { keys, values } from "./KMap";
 
-export function run() {
+export function runContainer() {
   console.log("======================= run array ======================");
   let arr = new KArray(1, 2, 3, 4, 5);
   console.log("copyWithIn => " + arr.kCopyWithin(1, 3, 4)); // copyWithIn:1,4,3,4,5
